@@ -45,7 +45,7 @@ public class Services {
     
     public Services(String query, String scheduleFilePath) {
         this.scheduleFile = new File(scheduleFilePath);
-        this.normalizedQuery = normalizeQuery(query);
+        this.normalizedQuery = this.normalizeQuery(query);
         this.jsonParser = new JSONParser();
     }
     
@@ -367,4 +367,5 @@ public class Services {
         }
     }
 }
+
 
