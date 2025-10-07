@@ -16,7 +16,7 @@ import org.json.simple.parser.ParseException;
 
 public class Services {
     
-    private static final Logger LOGGER = Logger.getLogger(ImprovedScheduleService.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(Services.class.getName());
     private static final String ERROR_MESSAGE = "Пожалуйста, Попробуйте Снова";
     private static final String WEEKEND_MESSAGE = "В выходные занятий нет";
     private static final Map<String, String> ENGLISH_TO_RUSSIAN_DAYS = Map.of(
@@ -367,3 +367,4 @@ public class Services {
         }
     }
 }
+
